@@ -14,10 +14,23 @@ public class LoginPage extends TestBase {
 	
 			
 
-	private static WebElement element;
 	
+	@FindBy(id="emailId")
+	private WebElement email ;
 	
+	@FindBy(id="password")
+	private WebElement password;
 	
+	@FindBy(xpath="//form[@class='ng-pristine ng-invalid ng-touched']//button[@class='btn btn-warning btn-lg btn-block'][contains(text(),'Clear')]")
+	private WebElement clearButton;
+	
+	@FindBy(xpath="//button[contains(text(),'Sign In')]")
+	private WebElement signInButton;
+	
+	@FindBy(xpath="//button[@class='btn btn-primary btn-md']")
+	private WebElement createAccount;
+	
+
 
 
 
@@ -29,49 +42,49 @@ public class LoginPage extends TestBase {
 	}
 		
 	
-	public static WebElement txtbox_emaild() throws Exception{
+	public  WebElement txtbox_emaild() throws Exception{
     	try{
-    		element=driver.findElement(By.id("emailId"));
+    		if (email.isDisplayed())
             Log.info("Email text box is found on the Login Page");
     	}catch (Exception e){
        		Log.error("Email text box is not found on the Login Page");
        		throw(e);
        		}
-       	return element;
+       	return email;
 	}
 	
 	
-       	public static WebElement txtbox_password() throws Exception{
+       	public  WebElement txtbox_password() throws Exception{
         	try{
-        		element=driver.findElement(By.id("password"));
+        		if (password.isDisplayed())
                 Log.info("Password text box is found on the Login Page");
         	}catch (Exception e){
            		Log.error("Password text box is not found on the Login Page");
            		throw(e);
            		}
-           	return element;
+           	return password;
        	}
            	
-           	public static WebElement button_signIn() throws Exception{
+           	public  WebElement button_signIn() throws Exception{
             	try{
-            		element=driver.findElement(By.xpath("//button[contains(text(),'Sign In')]"));
+            		if (signInButton.isDisplayed())
                     Log.info("Sign in button is found on the Login Page");
             	}catch (Exception e){
                		Log.error("Sign in button is not found on the Login Page");
                		throw(e);
                		}
-               	return element;
+               	return signInButton;
            	}
            	
-        	public static WebElement button_createAccount() throws Exception{
+        	public  WebElement button_createAccount() throws Exception{
             	try{
-            		element=driver.findElement(By.xpath("//button[@class='btn btn-primary btn-md']"));
+            		if (createAccount.isDisplayed())
                     Log.info("Create Account Button is found on the Login Page");
             	}catch (Exception e){
                		Log.error("Create Account Button is not found on the Login Page");
                		throw(e);
                		}
-               	return element;
+               	return createAccount;
            	}
 	
 	

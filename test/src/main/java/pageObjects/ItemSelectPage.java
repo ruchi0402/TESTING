@@ -22,7 +22,7 @@ public ItemSelectPage() {
 	
 	
 	
-	public static WebElement image_item(String  name) {
+	public WebElement image_item(String  name) {
 		
 		try{
 	

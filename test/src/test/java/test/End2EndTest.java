@@ -61,28 +61,26 @@ public class End2EndTest extends TestBase {
 	
 		
 			try{
-				HomePage.link_signInLink().click();
+				HomePage homepage=new HomePage();
+				homepage.link_signInLink().click();
 		    	Log.info("Click action is performed on SignIn link" );
-		    	
-		    	
-		    	LoginPage.txtbox_emaild().sendKeys(username);
-		       
+		    	LoginPage loginpage=new LoginPage(); 		    	
+		    	loginpage.txtbox_emaild().sendKeys(username);		       
 		        // Printing the logs for what we have just performed
-		        Log.info(username +" is entered in UserName text box" );
-		        
-		       
-		        LoginPage.txtbox_password().sendKeys(password);
-		        Log.info(password +" is entered in Password text box" );
-		        
-		        LoginPage.button_signIn().click();
-		        
+		        Log.info(username +" is entered in UserName text box" );		             
+		        loginpage.txtbox_password().sendKeys(password);
+		        Log.info(password +" is entered in Password text box" );		        
+		        loginpage.button_signIn().click();	
+		        LoggedUserPage loggeduserpage=new LoggedUserPage();
 		        Log.info("Click action is performed on Submit button");
-		        Assert.assertTrue(LoggedUserPage.loginSuccessful());
+		        Assert.assertTrue(loggeduserpage.loginSuccessful());
 		        Log.info("Logged in Sucessfully");
-		        LoggedUserPage.circle_category(Category).click();
+		        loggeduserpage.circle_category(Category).click();
 		        Log.info("Clicked on category");
-		        ItemSelectPage.image_item(Item).click();
+		        ItemSelectPage itemselectpage=new ItemSelectPage();
+		        itemselectpage.image_item(Item).click();
 		        Log.info("Clicked on item");
+		        
 		        ProductDetailPage.button_buyNow().click();
 		        Log.info("Clicked on Buy Now");
 		       if( OrderDetailsPage.image_SelectProduct(Item).isDisplayed())

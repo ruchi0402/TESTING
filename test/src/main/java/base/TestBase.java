@@ -24,7 +24,7 @@ public class TestBase  {
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\Admin\\Desktop\\SDET\\TEST2\\src\\main\\java\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Admin\\git\\repository\\test\\src\\main\\java\\config\\config.properties");
 			prop.load(ip);
 		
 		} catch (IOException e) {

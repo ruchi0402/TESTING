@@ -20,7 +20,7 @@ public class LoggedUserPage extends TestBase {
 	
 
 
-		public static WebElement circle_category(String category) throws Exception{
+		public  WebElement circle_category(String category) throws Exception{
 	    	try{
 	    		element=driver.findElement(By.xpath("//div[@class='circle-text-"+category+"']"));
 	            Log.info("Category label present");
@@ -31,7 +31,7 @@ public class LoggedUserPage extends TestBase {
 	       	return element;
 		}
 			
-		public static Boolean loginSuccessful() {
+		public  Boolean loginSuccessful() {
 			try{
 			a= driver.findElement(By.xpath("//div[@id='toast-container']")).isDisplayed();
 			Log.info("Login Sucessful");

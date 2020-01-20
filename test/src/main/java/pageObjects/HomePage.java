@@ -10,9 +10,14 @@ import base.TestBase;
 import util.Log;
 
 public class HomePage extends TestBase{
+	
+	@FindBy(xpath = "//div[@id='navbarSupportedContent']/form/button[@type='button']/span[@class='mat-button-wrapper']")
+	private WebElement signInLink;
+	
+	
 
 	
-	private static WebElement element;
+
 	
 	//Object Repository or OR or Page Factory Elements
 
@@ -29,15 +34,15 @@ public class HomePage extends TestBase{
 	
 		
 		
-	public static WebElement link_signInLink() throws Exception{
+	public WebElement link_signInLink() throws Exception{
     	try{
-    		element=driver.findElement(By.xpath("//div[@id='navbarSupportedContent']/form/button[@type='button']/span[@class='mat-button-wrapper']"));
+    		if (signInLink.isDisplayed())
             Log.info("Login Link is Displayed");
     	}catch (Exception e){
        		Log.error("Login Link not Displayed");
        		throw(e);
        		}
-       	return element;
+       	return signInLink;
         }
 	
 }

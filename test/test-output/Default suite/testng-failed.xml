@@ -6,7 +6,7 @@
       <class name="test.End2EndTest">
         <methods>
           <include name="setup"/>
-          <include name="VerifyPurchaseProductTest"/>
+          <include name="VerifyPurchaseProductTest" invocation-numbers="1"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- test.End2EndTest -->

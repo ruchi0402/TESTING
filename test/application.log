@@ -1,39 +1,39 @@
-2020-01-19 10:20:27,658  INFO [main] Log:27 - Login Link is Displayed
-2020-01-19 10:20:27,790  INFO [main] Log:27 - Click action is performed on SignIn link
-2020-01-19 10:20:28,068  INFO [main] Log:27 - Email text box is found on the Login Page
-2020-01-19 10:20:28,420  INFO [main] Log:27 - ruchitasingla@gmail.com is entered in UserName text box
-2020-01-19 10:20:28,454  INFO [main] Log:27 - Password text box is found on the Login Page
-2020-01-19 10:20:28,739  INFO [main] Log:27 - Pranav1007! is entered in Password text box
-2020-01-19 10:20:28,778  INFO [main] Log:27 - Sign in button is found on the Login Page
-2020-01-19 10:20:28,898  INFO [main] Log:27 - Click action is performed on Submit button
-2020-01-19 10:20:29,489  INFO [main] Log:27 - Login Sucessful
-2020-01-19 10:20:29,492  INFO [main] Log:27 - Logged in Sucessfully
-2020-01-19 10:20:29,525  INFO [main] Log:27 - Category label present
-2020-01-19 10:20:29,700  INFO [main] Log:27 - Clicked on category
-2020-01-19 10:20:30,619  INFO [main] Log:27 - Item Present
-2020-01-19 10:20:30,824  INFO [main] Log:27 - Clicked on item
-2020-01-19 10:20:30,971  INFO [main] Log:27 - Buy Now button displayed
-2020-01-19 10:20:31,042  INFO [main] Log:27 - Clicked on Buy Now
-2020-01-19 10:20:31,254  INFO [main] Log:27 - Select Product Information Displayed
-2020-01-19 10:20:31,272  INFO [main] Log:27 - Product Detail Displayed
-2020-01-19 10:20:31,296  INFO [main] Log:27 - Place order button displayed
-2020-01-19 10:20:31,594  INFO [main] Log:27 - creditdebitatm radio button displayed
-2020-01-19 10:20:31,657  INFO [main] Log:27 - Payment Selected
-2020-01-19 10:20:31,679  INFO [main] Log:27 - Place Order Displayed
-2020-01-19 10:20:31,937  INFO [main] Log:27 - Order successfully placed
-2020-01-19 10:20:31,938  INFO [main] Log:27 - Logged in Sucessfully
-2020-01-19 10:20:40,618  INFO [main] Log:27 - Login Link is Displayed
-2020-01-19 10:20:40,696  INFO [main] Log:27 - Click action is performed on SignIn link
-2020-01-19 10:20:41,002  INFO [main] Log:27 - Email text box is found on the Login Page
-2020-01-19 10:20:41,310  INFO [main] Log:27 - ruchitasingla@gmail.com is entered in UserName text box
-2020-01-19 10:20:41,333  INFO [main] Log:27 - Password text box is found on the Login Page
-2020-01-19 10:20:41,527  INFO [main] Log:27 - Pranav1007! is entered in Password text box
-2020-01-19 10:20:41,554  INFO [main] Log:27 - Sign in button is found on the Login Page
-2020-01-19 10:20:41,645  INFO [main] Log:27 - Click action is performed on Submit button
-2020-01-19 10:20:42,229  INFO [main] Log:27 - Login Sucessful
-2020-01-19 10:20:42,230  INFO [main] Log:27 - Logged in Sucessfully
-2020-01-19 10:21:02,272 ERROR [main] Log:33 - Category label not present
-2020-01-19 10:21:02,273 ERROR [main] Log:33 - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='circle-text-table1']"}
+2020-01-19 23:55:21,840  INFO [main] Log:27 - Login Link is Displayed
+2020-01-19 23:55:21,937  INFO [main] Log:27 - Click action is performed on SignIn link
+2020-01-19 23:55:22,500  INFO [main] Log:27 - Email text box is found on the Login Page
+2020-01-19 23:55:22,892  INFO [main] Log:27 - ruchitasingla@gmail.com is entered in UserName text box
+2020-01-19 23:55:22,927  INFO [main] Log:27 - Password text box is found on the Login Page
+2020-01-19 23:55:23,079  INFO [main] Log:27 - Pranav1007! is entered in Password text box
+2020-01-19 23:55:23,130  INFO [main] Log:27 - Sign in button is found on the Login Page
+2020-01-19 23:55:23,235  INFO [main] Log:27 - Click action is performed on Submit button
+2020-01-19 23:55:23,785  INFO [main] Log:27 - Login Sucessful
+2020-01-19 23:55:23,788  INFO [main] Log:27 - Logged in Sucessfully
+2020-01-19 23:55:23,821  INFO [main] Log:27 - Category label present
+2020-01-19 23:55:24,004  INFO [main] Log:27 - Clicked on category
+2020-01-19 23:55:25,211  INFO [main] Log:27 - Item Present
+2020-01-19 23:55:25,465  INFO [main] Log:27 - Clicked on item
+2020-01-19 23:55:25,852  INFO [main] Log:27 - Buy Now button displayed
+2020-01-19 23:55:25,937  INFO [main] Log:27 - Clicked on Buy Now
+2020-01-19 23:55:26,101  INFO [main] Log:27 - Select Product Information Displayed
+2020-01-19 23:55:26,121  INFO [main] Log:27 - Product Detail Displayed
+2020-01-19 23:55:26,139  INFO [main] Log:27 - Place order button displayed
+2020-01-19 23:55:26,447  INFO [main] Log:27 - creditdebitatm radio button displayed
+2020-01-19 23:55:26,501  INFO [main] Log:27 - Payment Selected
+2020-01-19 23:55:26,518  INFO [main] Log:27 - Place Order Displayed
+2020-01-19 23:55:26,754  INFO [main] Log:27 - Order successfully placed
+2020-01-19 23:55:26,754  INFO [main] Log:27 - Logged in Sucessfully
+2020-01-19 23:55:34,964  INFO [main] Log:27 - Login Link is Displayed
+2020-01-19 23:55:35,050  INFO [main] Log:27 - Click action is performed on SignIn link
+2020-01-19 23:55:35,274  INFO [main] Log:27 - Email text box is found on the Login Page
+2020-01-19 23:55:35,557  INFO [main] Log:27 - ruchitasingla@gmail.com is entered in UserName text box
+2020-01-19 23:55:35,598  INFO [main] Log:27 - Password text box is found on the Login Page
+2020-01-19 23:55:35,750  INFO [main] Log:27 - Pranav1007! is entered in Password text box
+2020-01-19 23:55:35,797  INFO [main] Log:27 - Sign in button is found on the Login Page
+2020-01-19 23:55:35,880  INFO [main] Log:27 - Click action is performed on Submit button
+2020-01-19 23:55:36,450  INFO [main] Log:27 - Login Sucessful
+2020-01-19 23:55:36,451  INFO [main] Log:27 - Logged in Sucessfully
+2020-01-19 23:55:56,506 ERROR [main] Log:33 - Category label not present
+2020-01-19 23:55:56,508 ERROR [main] Log:33 - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='circle-text-table1']"}
   (Session info: chrome=79.0.3945.117)
   (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -42,5 +42,5 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'E4ML14565', ip: '192.168.0.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\Admin\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.117, webStorageEnabled: true}
-Session ID: 14a9d0411848e59ccc8960cf7c32eed8
+Session ID: 3cb9faeb962f52f1456af7a31e53a5f1
 *** Element info: {Using=xpath, value=//div[@class='circle-text-table1']}
